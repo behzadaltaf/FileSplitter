@@ -15,7 +15,7 @@ This API takes an input file in the following format ([OPEN-NLP](https://opennlp
 The usage is as follows.
 
 ```Java
-    FileSplitter.splitFile((File inputFile, String splitStrategy, Double splitRatio)
+    Map<String, File> splitHandles = FileSplitter.splitFile((File inputFile, String splitStrategy, Double splitRatio)
 ```
 
 
@@ -30,3 +30,5 @@ The various valid split strategies are provided below
 [**Stratified**](https://en.wikipedia.org/wiki/Stratified_sampling): This splitter splits the input file with stratification into TEST and TRAINING. The split is in the ratio of the categories. e.g.if the split requested is 0.7 then top 70% ofthe categories are in training and rest 30% are is test.
 
 The **split ratio** should be between 0.0 to 1.0
+
+The output would be a map that has the **TRAINING** and **TEST** handles.  

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/behzadaltaf/FileSplitter.svg?branch=master)](https://travis-ci.org/behzadaltaf/FileSplitter)
+[![Build Status](https://travis-ci.org/behzadaltaf/FileSplitter.svg?branch=master)](https://travis-ci.org/behzadaltaf/FileSplitter) [![Dependency Status](https://www.versioneye.com/user/projects/58429c09b1c38c0a5d2b7e16/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58429c09b1c38c0a5d2b7e16)
 
 # FileSplitter
 In a typical [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) model generation and evaluation process, the first step is to split the input file into Training and Test.
